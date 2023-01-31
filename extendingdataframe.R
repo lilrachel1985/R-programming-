@@ -21,7 +21,7 @@ my.data
 #Removing a variable from the data frame
 my.data$MarkScreenTime<-NULL
 my.data$CarrieScreenTime<-NULL
-
+my.data
 #using cbind to expand 
 my.data<-cbind(my.data,MarkScreenTime = mark, CarrieScreenTime = carrie)
 my.data

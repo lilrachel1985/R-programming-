@@ -17,6 +17,6 @@ mtcars %>%
 new_mtcars <- mtcars %>%
   mutate(mpg2 = mpg*2,
          mpg_root = sqrt(mpg))
-
+new_mtcars
 #view first six rows of new data frame
 head(new_mtcars)
